@@ -42,6 +42,16 @@ class AppRoutes {
         name: 'Text Inputs',
         screen: InputsScreen(),
         icon: Icons.input),
+    MenuOption(
+        route: 'slider',
+        name: 'Sliders Screen',
+        screen: SliderScreen(),
+        icon: Icons.slow_motion_video_rounded),
+    MenuOption(
+        route: 'ListViewScreen',
+        name: 'Infinite Scroll & Pull to refresh',
+        screen: ListViewScreen(),
+        icon: Icons.slow_motion_video_rounded),
   ];
   static Map<String, Widget Function(BuildContext)> getAppRoutes() {
     Map<String, Widget Function(BuildContext)> appRoutes = {};
